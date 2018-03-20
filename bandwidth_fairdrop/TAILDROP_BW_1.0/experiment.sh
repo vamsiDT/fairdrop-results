@@ -54,9 +54,10 @@ else
 
 #For 20 Flows
 #bandwidth
-	#cat $EXP/flow_monitor.dat | grep "Hash:" | awk '{print $4"\t"$12}' | awk -F "\t|:" '{if($1>0.1){print $1"\t"$2}} ' |sort -rnk1 > $EXP/plots/flow_pps.dat
+	cat $EXP/flow_monitor.dat | grep "Hash:" | awk '{print $4"\t"$12}' | awk -F "\t|:" '{if($1>0.1){print $1"\t"$2}} ' |sort -rnk1 > $EXP/plots/flow_pps.dat
 #cpu fairdrop
-	cat $EXP/flow_monitor.dat | grep "Hash:" | awk '{print $4"\t"$12}' | awk -F "\t|:" '{if ($1>1){if(($2==4157820474)||($2==2122681738)){print $1"\t"$2"\t'$COST'"}else print $1"\t"$2"\t"350}} ' |sort -rnk3 > $EXP/plots/flow_pps.dat
+	#cat $EXP/flow_monitor.dat | grep "Hash:" | awk '{print $4"\t"$12}' | awk -F "\t|:" '{if ($1>1){if(($2==4157820474)||($2==2122681738)){print $1"\t"$2"\t'$COST'"}else print $1"\t"$2"\t"350}} ' |sort -rnk3 > $EXP/plots/flow_pps.dat
+
 	echo -e "$(cat $EXP/showrun.dat | grep "vector rates" | head --lines 2 |tail --lines 1 | awk '{print $4}' | awk -F "," '{print IN = $1}')\t$(cat $EXP/showrun.dat | grep "vector rates" | head --lines 2 |tail --lines 1 | awk '{print $6}' | awk -F "," '{print IN = $1}')" > $EXP/plots/in_out.dat
 
 
