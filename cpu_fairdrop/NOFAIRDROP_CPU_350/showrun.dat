@@ -1,0 +1,27 @@
+Thread 0 vpp_main (lcore 21)
+Time 60.2, average vectors/node 0.00, last 128 main loops 0.00 per node 0.00
+  vector rates in 0.0000e0, out 0.0000e0, drop 0.0000e0, punt 0.0000e0
+             Name                 State         Calls          Vectors        Suspends         Clocks       Vectors/Call  
+api-rx-from-ring                 active                  0               0              21      1596263.99            0.00
+cdp-process                     any wait                 0               0              44        53144.00            0.00
+dpdk-process                    any wait                 0               0              20      9689544.00            0.00
+fib-walk                        any wait                 0               0            6185     21698296.00            0.00
+gmon-process                    time wait                0               0              12        50680.00            0.00
+ikev2-manager-process           any wait                 0               0              60       181584.00            0.00
+ip6-icmp-neighbor-discovery-ev  any wait                 0               0              60       144416.00            0.00
+lisp-retry-service              any wait                 0               0              30       133064.00            0.00
+unix-epoll-input                 polling            582289               0               0 155733845208.00            0.00
+vpe-oam-process                 any wait                 0               0              30        69096.00            0.00
+---------------
+Thread 1 vpp_wk_0 (lcore 22)
+Time 60.2, average vectors/node 256.00, last 128 main loops 14.00 per node 256.00
+  vector rates in 9.6137e6, out 9.6137e6, drop 0.0000e0, punt 0.0000e0
+             Name                 State         Calls          Vectors        Suspends         Clocks       Vectors/Call  
+TenGigabitEthernet84/0/1-outpu   active            2259354       578394624               0   4637296100.00          256.00
+TenGigabitEthernet84/0/1-tx      active            2259354       578394624               0  43239494604.00          256.00
+dpdk-input                       polling           2259354       578394624               0  45004319568.00          256.00
+ip4-input-no-checksum            active            2259354       578394624               0  16091922120.00          256.00
+ip4-load-balance                 active            2259354       578394624               0  10681947348.00          256.00
+ip4-lookup                       active            2259354       578394624               0  20444732500.00          256.00
+ip4-rewrite                      active            2259354       578394624               0  15725265799.99          256.00
+
