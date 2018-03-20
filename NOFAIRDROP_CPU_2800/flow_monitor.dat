@@ -1,0 +1,183 @@
+EAL: Probing VFIO support...
+EAL: PCI device 0000:05:00.0 on NUMA socket 0
+EAL:   probe driver: 1137:43 net_enic
+EAL: PCI device 0000:06:00.0 on NUMA socket 0
+EAL:   probe driver: 1137:43 net_enic
+EAL: PCI device 0000:07:00.0 on NUMA socket 0
+EAL:   probe driver: 1137:43 net_enic
+EAL: PCI device 0000:08:00.0 on NUMA socket 0
+EAL:   probe driver: 1137:43 net_enic
+EAL: PCI device 0000:0b:00.0 on NUMA socket 0
+EAL:   Device is blacklisted, not initializing
+EAL: PCI device 0000:0b:00.1 on NUMA socket 0
+EAL:   probe driver: 8086:10fb net_ixgbe
+EAL: PCI device 0000:84:00.0 on NUMA socket 1
+EAL:   Device is blacklisted, not initializing
+EAL: PCI device 0000:84:00.1 on NUMA socket 1
+EAL:   Device is blacklisted, not initializing
+Mempool size 512
+Port 0 MAC: 90 e2 ba cb f5 39
+Setting: core 9 checks queue 0
+Initial lost packets: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.00 Mpps, Total RX pkts: 0, Total dropped pkts: 0
+RX rate: 0.29 Mpps, Total RX pkts: 293332, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 5208612, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 10124288, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 15041024, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 19957248, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 24871752, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 29787392, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 34702848, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 39616768, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 44530364, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 49445076, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 54358952, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 59273588, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 64187648, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 69102592, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 74016512, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 78933760, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 83848564, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 88765220, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 93682176, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 98598656, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 103516160, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 108434179, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 113349896, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 118267136, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 123183044, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 128098048, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 133013504, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 137929660, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 142845184, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 147760896, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 152675520, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 157589248, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 162503424, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 167416320, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 172329728, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 177243648, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 182157780, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 187070720, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 191988736, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 196905880, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 201822848, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 206739968, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 211658752, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 216574188, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 221490688, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 226406656, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 231321856, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 236238080, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 241153792, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 246069504, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 250984960, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 255899604, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 260813824, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 265728768, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 270643456, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 275557632, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 280469760, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 285382092, Total dropped pkts: 0
+RX rate: 4.91 Mpps, Total RX pkts: 290295544, Total dropped pkts: 0
+RX rate: 4.92 Mpps, Total RX pkts: 295210840, Total dropped pkts: 0
+
+Signal 2 received
+
+Begin post processing...
+START:1519817542.905617
+16406: 14725884 (throughput: 244589.40 pps)  0: 0 (throughput: 0.00 pps) Hash: 1075185416 0: 0 (throughput: 0.00 pps)
+33964: 14897456 (throughput: 247439.12 pps)  0: 0 (throughput: 0.00 pps) Hash: 2225874592 0: 0 (throughput: 0.00 pps)
+45944: 14870133 (throughput: 246985.30 pps)  0: 0 (throughput: 0.00 pps) Hash: 3010998242 0: 0 (throughput: 0.00 pps)
+60164: 14896388 (throughput: 247421.38 pps)  0: 0 (throughput: 0.00 pps) Hash: 3942921252 0: 0 (throughput: 0.00 pps)
+56528: 14732205 (throughput: 244694.39 pps)  0: 0 (throughput: 0.00 pps) Hash: 3704634726 0: 0 (throughput: 0.00 pps)
+49159: 14739157 (throughput: 244809.86 pps)  0: 0 (throughput: 0.00 pps) Hash: 3221702520 0: 0 (throughput: 0.00 pps)
+63443: 14726872 (throughput: 244605.81 pps)  0: 0 (throughput: 0.00 pps) Hash: 4157820474 0: 0 (throughput: 0.00 pps)
+44975: 14896583 (throughput: 247424.62 pps)  0: 0 (throughput: 0.00 pps) Hash: 2947503612 0: 0 (throughput: 0.00 pps)
+39035: 14732869 (throughput: 244705.41 pps)  0: 0 (throughput: 0.00 pps) Hash: 2558221502 0: 0 (throughput: 0.00 pps)
+1213: 14726515 (throughput: 244599.88 pps)  0: 0 (throughput: 0.00 pps) Hash: 79521488 0: 0 (throughput: 0.00 pps)
+18769: 14740712 (throughput: 244835.68 pps)  0: 0 (throughput: 0.00 pps) Hash: 1230079176 0: 0 (throughput: 0.00 pps)
+32389: 14870514 (throughput: 246991.63 pps)  0: 0 (throughput: 0.00 pps) Hash: 2122681738 0: 0 (throughput: 0.00 pps)
+9977: 14732546 (throughput: 244700.05 pps)  0: 0 (throughput: 0.00 pps) Hash: 653891148 0: 0 (throughput: 0.00 pps)
+4397: 14731855 (throughput: 244688.57 pps)  0: 0 (throughput: 0.00 pps) Hash: 288202510 0: 0 (throughput: 0.00 pps)
+36331: 14740713 (throughput: 244835.70 pps)  0: 0 (throughput: 0.00 pps) Hash: 2381030752 0: 0 (throughput: 0.00 pps)
+51520: 14727222 (throughput: 244611.62 pps)  0: 0 (throughput: 0.00 pps) Hash: 3376465080 0: 0 (throughput: 0.00 pps)
+3578: 14739418 (throughput: 244814.19 pps)  0: 0 (throughput: 0.00 pps) Hash: 234546448 0: 0 (throughput: 0.00 pps)
+14894: 14870892 (throughput: 246997.91 pps)  0: 0 (throughput: 0.00 pps) Hash: 976153682 0: 0 (throughput: 0.00 pps)
+25170: 14896258 (throughput: 247419.22 pps)  0: 0 (throughput: 0.00 pps) Hash: 1649604500 0: 0 (throughput: 0.00 pps)
+21894: 14870627 (throughput: 246993.50 pps)  0: 0 (throughput: 0.00 pps) Hash: 1434910422 0: 0 (throughput: 0.00 pps)
+[Double Hash + Linked-list]: 20 flows with 295864819 packets
+
+DPDK: Received pkts 295864819 
+Dropped packets 0 
+Erroneous packets 0
+
+Queue 0 counter's value: 295864819
+The time interval is 60.2066

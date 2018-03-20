@@ -35,10 +35,9 @@ set term png font "Times,10"
 
 set key outside
 #set ylabel "Per flow rate [pps]"
-set title "Comparison between different optimizations in the implementation of Bandwidth Fairdrop Algorithm\n{Overall VPP Throughput}\n{20 flows with approximate linear curve for arrival rates}"
-set xlabel "Alpha*10"
+set title "Comparison between different optimizations in the implementation of CPU Fairdrop Algorithm\n{Overall VPP Throughput}\n{20 flows with 18 ip4 flows and 2 flows of weight 350*(WEIGHT FACTOR)}"
+set xlabel "Weight Factor"
 set xtics 1
-set xrange [0.5:10.5]
 set boxwidth 0.15
 set style fill solid
 #set ytics nomirror
@@ -59,9 +58,9 @@ set ylabel "Overall Output Throughput VPP MPPS"
 set yrange [0:10]
 
 plot \
-'/home/vk/FAIRDROP_BW_MASTER/in_out_networking.dat'	u ($0+1-0.30):($3/1000000)   	t 'Networking'  axes x1y1 with boxes lc rgb "black",	\
-'/home/vk/FAIRDROP_BW_MASTER/in_out_shadow.dat'    u ($0+1-0.15):($3/1000000)      t 'Shadow'  axes x1y1 with boxes lc rgb "brown",    \
-'/home/vk/FAIRDROP_BW_MASTER/in_out_act.dat'    u ($0+1):($3/1000000)      t 'Act'  axes x1y1 with boxes lc rgb "blue",    \
-'/home/vk/FAIRDROP_BW_MASTER/in_out_shadowact.dat'    u ($0+1+0.15):($3/1000000)      t 'Shadow-Act'  axes x1y1 with boxes lc rgb "0x2F4F4F",    \
-'/home/vk/NOFAIRDROP_BW_RESULTS/in_out_nofdthf.dat'  u ($0+1+0.30):($3/1000000)	t 'Taildrop'   axes x1y1 with boxes lc rgb "violet"
+'/home/vk/FAIRDROP_CPU_MASTER/in_out_networking.dat'	u ($0+1-0.30):($3/1000000)   	t 'Networking'  axes x1y1 with boxes lc rgb "black",	\
+'/home/vk/FAIRDROP_CPU_MASTER/in_out_shadow.dat'    u ($0+1-0.15):($3/1000000)      t 'Shadow'  axes x1y1 with boxes lc rgb "brown",    \
+'/home/vk/FAIRDROP_CPU_MASTER/in_out_act.dat'    u ($0+1):($3/1000000)      t 'Act'  axes x1y1 with boxes lc rgb "blue",    \
+'/home/vk/FAIRDROP_CPU_MASTER/in_out_shadowact.dat'    u ($0+1+0.15):($3/1000000)      t 'Shadow-Act'  axes x1y1 with boxes lc rgb "0x2F4F4F",    \
+'/home/vk/NOFAIRDROP_CPU_RESULTS/in_out_nofdcpu.dat'  u ($0+1+0.30):($3/1000000)	t 'Taildrop'   axes x1y1 with boxes lc rgb "violet"
 #'flow_pps.dat'  u ($0+1+0.25):(f($1)/1000000)           t 'Per Flow Throughput'  axes x1y1 with boxes
