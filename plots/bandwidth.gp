@@ -42,7 +42,7 @@ set xlabel "Flow rank"
 set format y "%.0t^.10^%T"
 set ytics 4e5,4e5,8e5
 set ytics add ("0" 0)
-set yran [0:9e5]
+set yran [0:10e5]
 set xrange [1:20]
 set xtics 0,5,20
 set xtics add ("1" 1)
@@ -50,9 +50,9 @@ set xtics add ("1" 1)
 min(a,b)=a<b?a:b
 
 plot \
-'DATA/fairdrop_0.1.dat'    	u ($0+1):1   	t 'FD  ({/Symbol a}=0.1)'  	w  lp pt ec lc rgb "red", \
-'DATA/taildrop_0.1.dat'	u ($0+1):1   	t 'TD  ({/Symbol a}=0.1)'	w  lp pt fc lc rgb "red", \
-'DATA/fairdrop_0.4.dat'    	u ($0+1):1   	t 'FD  ({/Symbol a}=0.4)'  	w  lp pt ec lc rgb "blue", \
-'DATA/taildrop_0.4.dat'	u ($0+1):1   	t 'TD  ({/Symbol a}=0.4)'	w  lp pt fc lc rgb "blue", \
-'DATA/fairdrop_0.6.dat'   		u ($0+1):1   	t 'FD  ({/Symbol a}=0.6)'  	w  lp pt ec lc rgb "black", \
-'DATA/taildrop_0.6.dat'	u ($0+1):1   	t 'TD  ({/Symbol a}=0.6)'	w  lp pt fc lc rgb "black"
+'< sort -rnk1 ./../bandwidth_fairdrop/ACT_FAIRDROP_BW_0.1/plots/flow_pps.dat'    	u ($0+1):1   	t 'FD  ({/Symbol a}=0.1)'  	w  lp pt ec lc rgb "red", \
+'< sort -rnk1 ./../bandwidth_fairdrop/TAILDROP_BW_0.1/plots/flow_pps.dat'	u ($0+1):1   	t 'TD  ({/Symbol a}=0.1)'	w  lp pt fc lc rgb "red", \
+'< sort -rnk1 ./../bandwidth_fairdrop/ACT_FAIRDROP_BW_0.4/plots/flow_pps.dat'    	u ($0+1):1   	t 'FD  ({/Symbol a}=0.4)'  	w  lp pt ec lc rgb "blue", \
+'< sort -rnk1 ./../bandwidth_fairdrop/TAILDROP_BW_0.4/plots/flow_pps.dat'	u ($0+1):1   	t 'TD  ({/Symbol a}=0.4)'	w  lp pt fc lc rgb "blue", \
+'< sort -rnk1 ./../bandwidth_fairdrop/ACT_FAIRDROP_BW_0.6/plots/flow_pps.dat'   		u ($0+1):1   	t 'FD  ({/Symbol a}=0.6)'  	w  lp pt ec lc rgb "black", \
+'< sort -rnk1 ./../bandwidth_fairdrop/TAILDROP_BW_0.6/plots/flow_pps.dat'	u ($0+1):1   	t 'TD  ({/Symbol a}=0.6)'	w  lp pt fc lc rgb "black"

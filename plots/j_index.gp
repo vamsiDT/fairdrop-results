@@ -18,8 +18,9 @@
 #           "" u 1:4 w lp pt fs
 #-------------------------------------
 set size 1,0.7
-
-i="DATA/"
+set term post eps color solid  font "Times-Roman,18" linewidth 2
+set output 'j_index.eps'
+i="./../cpu_fairdrop/"
 ifilefd=i."j_fairness_perclass_cpufd.dat"
 ifiletd=i."j_fairness_perclass_taildrop.dat"
 #
@@ -32,7 +33,7 @@ set key top right
 set ylabel "J Fairness index"
 set yran   [.5:]
 set ytics .1
-set xrange [1:]
+set xrange [1:10]
 
 set label "J=" cen at 2,0.57
 set label "(r+1)^{/*0.7 2}\n2(r^{/*0.7 2}+1)" cen at 4.5,0.6
@@ -51,8 +52,8 @@ set size 0.55,.7
 set title "FairDrop (FD)"
 set xlab  " "
 plot \
-ifilefd u ($2/350):10 w p lw 2 pt ec lc rgb "blue" title "{CPU Cycles}",\
-ifilefd u ($2/350):6  w p lw 2 pt es lc rgb "blue" title "{Throughput}",\
+ifilefd u ($2/350):6 w p lw 2 pt ec lc rgb "blue" title "{CPU Cycles}", \
+ifilefd u ($2/350):4  w p lw 2 pt es lc rgb "blue" title "{Throughput}", \
 J(x) w l lt -1 lw 2 title ""
 
 #unset arrow
@@ -63,7 +64,7 @@ set xlab "Ratio of max/min flow costs (r)" offset -12
 set size 0.52,.7
 
 plot \
-ifiletd u ($2/350):10 w p lw 2 pt fc lc rgb 'red' title "{CPU Cycles}",\
-ifiletd u ($2/350):6  w p lw 2 pt fs lc rgb "red" title "{Throughput}",\
+ifiletd u ($2/350):6 w p lw 2 pt fc lc rgb 'red' title "{CPU Cycles}", \
+ifiletd u ($2/350):4  w p lw 2 pt fs lc rgb "red" title "{Throughput}", \
 J(x) w l lt -1 lw 2 title ""
  

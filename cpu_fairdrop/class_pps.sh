@@ -1,7 +1,7 @@
 i=350
 #k=80000
 DIR=$(pwd)
-j=FAIRDROP_CPU
+j=$2
 while [[ $i -le 7000 ]];do
 #for j in FAIRDROP_CPU;do
 if [[ $1 -eq 1 ]]; then
