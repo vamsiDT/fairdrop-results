@@ -1,2 +1,24 @@
-# fairdrop-results
-This repository contains results corresponding to fairdrop experiments using branches in vpp respository.
+# Fair Resource Sharing in VPP
+
+VPP (vector packet processor) is a software router and an open source project which is a part of linux foundation project fd.io. As well known from literature, software routers are prone to multiple bottlenecks like bandwidth,cpu. We attempt to share the resources fairly among different flows with a selective packet dropping algorithm.
+
+## Experimental Setup
+
+### CPU
+```
+Cisco UCS Server
+CPU: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+Sockets: 2
+Numa nodes: 2
+cores per socket: 12
+threads per core: 2
+
+```
+
+## Bandwidth Fairdrop
+
+Bandwidth is a bottleneck when the processing is faster than the wire speed at the output. In this case packets are lost in the tx fifo buffer.  
+
+---
+We generate a skewed traffic with 20 flows using DPDK-Pktgen.
+
