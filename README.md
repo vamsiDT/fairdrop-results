@@ -18,7 +18,7 @@ Network Interfaces
 ```
 2x Intel X520 NICs, dual prort, 10Gbps, full duplex, directly connected with SFP+ cables.
 ```
-![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/testbed.svg)
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/testbed.png)
 
 
 ## Bandwidth Fairdrop
