@@ -111,7 +111,7 @@
              width="92.85714"
              id="rect4142-9" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';text-align:center;text-anchor:middle"
-           id="flowPara4144-1">SUT</flowPara></flowRoot>      <rect
+           id="flowPara4144-1">DUT</flowPara></flowRoot>      <rect
          y="247.71112"
          x="256.51056"
          height="150.24602"
