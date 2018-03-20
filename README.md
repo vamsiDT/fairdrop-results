@@ -4,9 +4,9 @@ VPP (vector packet processor) is a software router and an open source project wh
 
 ## Experimental Setup
 
-### CPU
+### Cisco UCS Server
+CPU
 ```
-Cisco UCS Server
 CPU: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
 Sockets: 2
 Numa nodes: 2
