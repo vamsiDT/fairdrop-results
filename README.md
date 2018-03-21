@@ -59,7 +59,7 @@ In order to emulate flows with heavy cost, busyloops are inserted when a heavy f
 
 A comparison between fairdrop and taildrop showing jain fairness index of cpu cycles and throughput is shown below.
 
-![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/bandwidthexp.png)
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/j_index.png)
 
 
 
