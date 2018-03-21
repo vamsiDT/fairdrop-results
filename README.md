@@ -40,7 +40,7 @@ In order to emulate the scenario of bandwidth bottleneck, the parameter alpha ha
 ```
 * emulated_available_bandwidth = actual_available_bandwidth x alpha
 * For example, since our nics have 10Gpbs capacity, alpha=0.1 would mean that emulated available bandwidth at the output is 1Gbps
-* Packets are sent to VPP from Pktgen with 20 flows and skewed arrival rates. All the packets are of 64 byte length.
+* Packets are sent to VPP from Pktgen with 20 flows at skewed arrival rates. All the packets are of 64 byte length.
 
 A comparison between the outputs of fairdrop and taildrop vpp is shown below`
 
