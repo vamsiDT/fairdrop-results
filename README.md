@@ -32,7 +32,11 @@ Each port of the two line cards is directly connected to a port of the other lin
 
 ## Bandwidth Fairdrop
 
-Bandwidth is a bottleneck when the processing is faster than the wire speed at the output. In this case packets are lost in the tx fifo buffer.  
+Bandwidth is a bottleneck when the processing is faster than the wire speed at the output. In this case packets are lost in the tx fifo buffer. 
+`Packets are sent to VPP from Pktgen with 20 flows and skewed arrival rates
+The comparison between the outputs of fairdrop and taildrop vpp is shown below`
+
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/testbed.png)
 
 ---
 We generate a skewed traffic with 20 flows using DPDK-Pktgen.
