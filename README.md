@@ -63,6 +63,10 @@ A comparison between fairdrop and taildrop showing jain fairness index of cpu cy
 
 
 The effect of fairdrop on the overall throughput and packet loss at the fifo buffer is shown below.
+```
+Heavy flow cost = 4900 clocks/packet
+Light flow cost = 350 clocks/packet
+```
 
 Faidrop
 
