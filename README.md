@@ -41,11 +41,25 @@ In order to emulate the scenario of bandwidth bottleneck, the parameter alpha ha
 * emulated_available_bandwidth = actual_available_bandwidth x alpha
 * For example, since our nics have 10Gpbs capacity, alpha=0.1 would mean that emulated available bandwidth at the output is 1Gbps
 * Packets are sent to VPP from Pktgen with 20 flows at skewed arrival rates. All the packets are of 64 byte length.
-
-A comparison between the outputs of fairdrop and taildrop vpp is shown below`
+* The algorithm runs at 4% overhead currently.
+A comparison between the outputs of fairdrop and taildrop vpp is shown below.
 
 ![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/bandwidthexp.png)
 
----
-We generate a skewed traffic with 20 flows using DPDK-Pktgen.
+## CPU Fairdrop
+
+* Cpu is the bottleneck resource for a software router when the arrival rate of packets is faster than the processing rate. In this case packets are lost in the RX fifo buffer.
+* Fairdrop algorithm aim is to calculated the available cpu clock cycles depending on the arrival rate of packets and fairly share the clock cycles among different flows.
+* An additional step required for cpu fairdrop is to calculate the cost (cycles/packet required to process) for different flows.
+* Packet Generator: 20 flows with equal arrival rates among which 18 flows are ip4 packets and 2 flows are heavy flows. (Heavy flows are flow with high cycles/packet requirement)
+
+```
+In order to emulate flows with heavy cost, busyloops are inserted when a heavy flow is processed.
+```
+
+A comparison between fairdrop and taildrop showing jain fairness index of cpu cycles and throughput is shown below.
+
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/bandwidthexp.png)
+
+
 
