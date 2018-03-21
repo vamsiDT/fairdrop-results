@@ -36,7 +36,7 @@ Bandwidth is a bottleneck when the processing is faster than the wire speed at t
 `Packets are sent to VPP from Pktgen with 20 flows and skewed arrival rates
 The comparison between the outputs of fairdrop and taildrop vpp is shown below`
 
-![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/testbed.png)
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/bandwidthexp.png)
 
 ---
 We generate a skewed traffic with 20 flows using DPDK-Pktgen.
