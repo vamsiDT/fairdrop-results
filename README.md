@@ -62,4 +62,12 @@ A comparison between fairdrop and taildrop showing jain fairness index of cpu cy
 ![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/j_index.png)
 
 
+The effect of fairdrop on the overall throughput and packet loss at the fifo buffer is shown below.
 
+Faidrop
+
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/sankey_fairdrop.png)
+
+Taildrop
+
+![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/sankey_taildrop.png)
