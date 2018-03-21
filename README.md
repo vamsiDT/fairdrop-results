@@ -25,7 +25,8 @@ DUT: Device under Test (VPP)
 TGS: Traffic Generator (DPDK Pktgen)
 
 One line card (2 ports) is connected to VPP and the other line card is connected to pktgen. 
-Each port of the two line cards is directly connected to one port of the other line card as shown in the ficture.
+Each port of the two line cards is directly connected to one port of the other line card,
+as shown in the figure
 ```
 ![alt text](https://raw.githubusercontent.com/vamsiDT/fairdrop-results/master/plots/testbed.png)
 
